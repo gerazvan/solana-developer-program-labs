@@ -23,7 +23,7 @@ const requestAirdrop = async () => {
 };
 
 const main = async () => {
-    // await requestAirdrop();
+    await requestAirdrop();
     const balance = await connection.getBalance(publicKey);
     const balanceInSol = balance / LAMPORTS_PER_SOL;
     console.log({
