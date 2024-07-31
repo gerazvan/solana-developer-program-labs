@@ -1,5 +1,5 @@
 {
-  "name": "session_3",
+  "name": "session_5",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@metaplex-foundation/js": "^0.17.12",
     "@solana-developers/helpers": "^2.3.0",
     "@solana/spl-memo": "^0.2.5",
+    "@solana/spl-token": "^0.4.8",
     "@solana/web3.js": "^1.94.0",
     "bs58": "^6.0.0",
     "dotenv": "^16.4.5",
